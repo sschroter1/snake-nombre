@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#nameInputContainer {
+    margin-top: 100px;
+}
+
+#nameInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#gameCanvas {
+    display: none; /* Initially hidden */
+    border: 2px solid #000;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+#score {
+    font-size: 18px;
+    margin-top: 10px;
+}

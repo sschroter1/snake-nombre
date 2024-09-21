@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Snake Game with Name Obstacles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="nameInputContainer">
+        <h1>Welcome to Snake Game!</h1>
+        <input type="text" id="nameInput" placeholder="Enter your name" maxlength="10">
+        <button id="startButton">Start Game</button>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="score">Score: 0 | High Score: 0</div>
+
+    <!-- Preload Apple Image -->
+    <!-- Ensure this image is accessible. Replace the src URL with your own image if desired. -->
+    <img id="appleImage" src="https://i.imgur.com/1QfW2Qx.png" alt="Apple" style="display: none;">
+
+    <script src="script.js"></script>
+</body>
+</html>
